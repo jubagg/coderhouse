@@ -1,8 +1,11 @@
 import React from 'react';
-
+import {ItemCount} from './ItemCount.js';
 
 export const ItemListContainer = (props) => {
     return(
-        "ESTE ES MI CONTENEDOR, PERO NO SE SI ESTA BIEN!"
+        <div className="container ">
+        Items List
+        <ItemCount stock="5" initial="1" />
+      </div>
     )
 }
