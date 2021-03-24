@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {NavBar} from '../src/components/NavBar.js';
-import {ItemListContainer} from '../src/components/ItemListContainer.js';
+import ItemListContainer from '../src/components/ItemListContainer.js';
 
 ReactDOM.render(
   <React.StrictMode>
-        <NavBar></NavBar>
-        <ItemListContainer></ItemListContainer>
+        <NavBar />
+        <ItemListContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
