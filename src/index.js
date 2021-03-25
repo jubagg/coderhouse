@@ -4,10 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {NavBar} from '../src/components/NavBar.js';
 import ItemListContainer from '../src/components/ItemListContainer.js';
+import ItemDetailContainer from '../src/components/ItemDetailContainer.js';
 
 ReactDOM.render(
   <React.StrictMode>
         <NavBar />
+        <ItemDetailContainer />
         <ItemListContainer />
   </React.StrictMode>,
   document.getElementById('root')
